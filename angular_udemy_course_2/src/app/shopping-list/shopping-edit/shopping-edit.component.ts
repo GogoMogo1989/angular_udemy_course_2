@@ -19,11 +19,8 @@ export class ShoppingEditComponent implements OnInit {
   @ViewChild('amountInput') amuntInputRef?: ElementRef;
 
   constructor(private shoppingListService: ShoppingListService){}
-
-
-  ngOnInit(): void {
-    
-  }
+  
+  ngOnInit(): void {}
 
   onAddItem() {
     const ingName = this.nameInputRef?.nativeElement.value;
